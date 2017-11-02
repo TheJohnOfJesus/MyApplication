@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.john.myapplication.view.MNestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.example.john.myapplication.view.MNestedLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.john.myapplication.view.MNestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd1111111111"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisdg222222222222"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisdg33333333333333"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd444444444444444"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd555555555555"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd66666666666666"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd777777777777777"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd88888888888888"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd99999999999999"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd000000000000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd1010100101010110"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#f00"
+                    android:gravity="center_vertical|left"
+                    android:text="Cehisd12121212121212"/>
+            </LinearLayout>
+        </com.example.john.myapplication.view.MNestedScrollView>
+    </com.example.john.myapplication.view.MNestedLinearLayout>
+</com.example.john.myapplication.view.MNestedScrollView>

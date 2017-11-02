@@ -1,0 +1,27 @@
+# ninja log v5
+0	220	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+241	392	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+1	220	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+220	488	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+1	208	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+209	450	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+0	195	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	2e29484f202c509a
+196	317	0	../obj/armeabi/libtool.so	d0271c624dfed3f6
+2	195	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+195	289	0	../obj/armeabi/libtest-lib.so	c4fb003c4a3056a2
+9	194	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	2e29484f202c509a
+194	457	0	../obj/armeabi/libtool.so	d0271c624dfed3f6
+2	168	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+168	273	0	../obj/armeabi/libtest-lib.so	c4fb003c4a3056a2
+1	238	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+238	389	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+2	195	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+195	313	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+3	356	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+357	654	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+1	200	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+200	375	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+22	226	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+226	503	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea
+3	224	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	670d04e807852dfa
+225	609	0	../obj/armeabi/libtest-lib.so	cd167a27966e4aea

@@ -1,0 +1,27 @@
+# ninja log v5
+1	395	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+396	601	0	../obj/mips/libtest-lib.so	b453e12134f04927
+104	955	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+955	3075	0	../obj/mips/libtest-lib.so	b453e12134f04927
+2	502	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+502	1161	0	../obj/mips/libtest-lib.so	b453e12134f04927
+1	526	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	88b86d4ad795484f
+526	906	0	../obj/mips/libtool.so	60cb0f0125e5aca0
+3	181	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+181	244	0	../obj/mips/libtest-lib.so	40d16d0c3bb85f67
+17	491	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	88b86d4ad795484f
+491	785	0	../obj/mips/libtool.so	60cb0f0125e5aca0
+32	176	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+177	240	0	../obj/mips/libtest-lib.so	40d16d0c3bb85f67
+2	517	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+517	749	0	../obj/mips/libtest-lib.so	b453e12134f04927
+1	328	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+328	418	0	../obj/mips/libtest-lib.so	b453e12134f04927
+2	585	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+585	840	0	../obj/mips/libtest-lib.so	b453e12134f04927
+2	633	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+634	763	0	../obj/mips/libtest-lib.so	b453e12134f04927
+72	637	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+637	937	0	../obj/mips/libtest-lib.so	b453e12134f04927
+42	472	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+472	801	0	../obj/mips/libtest-lib.so	b453e12134f04927

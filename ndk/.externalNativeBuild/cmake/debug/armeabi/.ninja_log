@@ -1,0 +1,9 @@
+# ninja log v5
+1	231	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	345c7ac36f7f1163
+235	749	0	../obj/armeabi/libtest-lib.so	ef67eb6799eea7d
+2	182	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	345c7ac36f7f1163
+182	333	0	../obj/armeabi/libtest-lib.so	ef67eb6799eea7d
+1	410	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	345c7ac36f7f1163
+410	608	0	../obj/armeabi/libtest-lib.so	ef67eb6799eea7d
+2	214	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	345c7ac36f7f1163
+214	682	0	../obj/armeabi/libtest-lib.so	ef67eb6799eea7d

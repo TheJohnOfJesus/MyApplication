@@ -1,0 +1,1 @@
+include ':app', ':scriptdevelope', ':BaseRecyclerViewAdapterHelper', ':m2048', ':ndk'

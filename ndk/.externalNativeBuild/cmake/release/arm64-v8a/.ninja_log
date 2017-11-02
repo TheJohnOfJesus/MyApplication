@@ -1,0 +1,27 @@
+# ninja log v5
+0	345	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	53c36b29e21e7f1f
+346	531	0	../obj/arm64-v8a/libtest-lib.so	5f712ce6cf1367f3
+2	327	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	53c36b29e21e7f1f
+327	754	0	../obj/arm64-v8a/libtest-lib.so	5f712ce6cf1367f3
+2	301	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	53c36b29e21e7f1f
+301	571	0	../obj/arm64-v8a/libtest-lib.so	5f712ce6cf1367f3
+0	863	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	81f3ab8b941f9b82
+864	1284	0	../obj/arm64-v8a/libtool.so	b3543388b011a301
+4	143	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+143	204	0	../obj/arm64-v8a/libtest-lib.so	82843ab641585a9f
+2	365	0	CMakeFiles/tool.dir/src/main/cpp/tool.cpp.o	81f3ab8b941f9b82
+366	684	0	../obj/arm64-v8a/libtool.so	b3543388b011a301
+2	163	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+163	237	0	../obj/arm64-v8a/libtest-lib.so	82843ab641585a9f
+2	406	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+406	816	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+2	290	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+290	446	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+2	2027	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+2027	2620	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+2	299	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+299	380	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+59	531	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+531	873	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+19	460	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+461	1095	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d

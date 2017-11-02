@@ -1,0 +1,9 @@
+# ninja log v5
+63	791	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	4dfc5f08a9115293
+792	1254	0	../obj/arm64-v8a/libtest-lib.so	c605c314c6f418ca
+46	371	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b271960ef551a6f
+371	819	0	../obj/arm64-v8a/libtest-lib.so	9a862204f985c34d
+1	316	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b271960ef551a6f
+316	512	0	../obj/arm64-v8a/libtest-lib.so	9a862204f985c34d
+2	403	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b271960ef551a6f
+403	511	0	../obj/arm64-v8a/libtest-lib.so	9a862204f985c34d

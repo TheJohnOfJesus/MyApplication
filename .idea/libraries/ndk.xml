@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ndk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ndk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

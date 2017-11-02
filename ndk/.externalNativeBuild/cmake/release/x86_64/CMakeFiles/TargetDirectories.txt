@@ -1,0 +1,3 @@
+E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/test-lib.dir
+E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

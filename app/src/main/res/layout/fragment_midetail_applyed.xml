@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e8ee">
+
+    <ScrollView
+        android:id="@+id/sl_midetail_applyed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_midetail_applyed_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="14dp"
+            android:background="@mipmap/midetail_container_backgound"
+            android:orientation="vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp">
+
+            <LinearLayout
+                android:id="@+id/ll_midetail_applyed_contenttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/midetail_blind_list_header"
+                android:orientation="horizontal"
+                android:paddingLeft="6dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:text="排名"
+                    android:textColor="#6a6a72"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="姓名"
+                    android:textColor="#6a6a72"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="状态/桌号-座位号"
+                    android:textColor="#6a6a72"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:text="筹码"
+                    android:textColor="#6a6a72"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/srl_mi_refresh"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <com.example.john.myapplication.recyclerview.ExpandedListView
+                android:id="@+id/lv_midetail_applyed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:clickable="false"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none"></com.example.john.myapplication.recyclerview.ExpandedListView>
+            <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_midetail_applyed_nomessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="数据加载失败,请重试"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

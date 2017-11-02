@@ -1,0 +1,9 @@
+# ninja log v5
+13	3772	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	9ebcf3fd25d27239
+3782	4338	0	../obj/mips64/libtest-lib.so	d49cbff4416d3eda
+64	2419	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b13f4352dd3bd052
+2420	2872	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4
+2	777	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b13f4352dd3bd052
+777	911	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4
+2	641	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b13f4352dd3bd052
+642	787	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4
