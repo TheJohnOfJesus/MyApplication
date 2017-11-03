@@ -32,7 +32,6 @@
     <!-- 使用系统UI,eg:在service中显示dialog -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
-
     <!-- 自动聚焦权限 -->
     <application
         android:name=".JohnApplication"
@@ -113,6 +112,8 @@
         </service>
 
         <activity android:name=".countdown.CountDownActivity">
+        </activity>
+        <activity android:name=".bezier.sticky_water_drops.StickyWaterDropsActivity">
         </activity>
     </application>
 

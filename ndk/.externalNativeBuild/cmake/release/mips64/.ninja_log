@@ -32,3 +32,5 @@
 1695	2138	0	../obj/mips64/libtest-lib.so	34eb619d34e8c049
 20	3198	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	1ccbc68373943eff
 3198	3775	0	../obj/mips64/libtest-lib.so	34eb619d34e8c049
+4	1804	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	1ccbc68373943eff
+1805	2548	0	../obj/mips64/libtest-lib.so	34eb619d34e8c049

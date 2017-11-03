@@ -7,3 +7,5 @@
 777	911	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4
 2	641	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b13f4352dd3bd052
 642	787	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4
+3	374	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	b13f4352dd3bd052
+374	602	0	../obj/mips64/libtest-lib.so	8e47856f8ac262a4

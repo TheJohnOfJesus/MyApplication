@@ -82,6 +82,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
             } catch (InterruptedException e) {
                 Log.e(TAG, "error : ", e);
             }
+            mDefaultHandler.uncaughtException(thread,ex);
 //            //退出程序
 //            AppManager.getAppManager().AppExit(mContext);
         }

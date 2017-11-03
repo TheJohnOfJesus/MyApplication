@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.john.myapplication.bezier.sticky_water_drops.StickyWaterDropsActivity;
 import com.example.john.myapplication.capture.GetPicture;
 import com.example.john.myapplication.countdown.CountDownActivity;
 import com.example.john.myapplication.download.DownLoadActivity;
@@ -22,7 +23,7 @@ import com.example.john.myapplication.websocket.WebSocketActivity;
 public class MainActivity extends Activity implements View.OnClickListener{
     public static Activity instance;
     private LinearLayout recycleView1, recycleView2, capture, compress, layout, elevation, surface, websocket,
-            listview, download,ndk,coutdown;
+            listview, download,ndk,coutdown,beizier;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         download= (LinearLayout) findViewById(R.id.ll_main_download);
         ndk= (LinearLayout) findViewById(R.id.ll_main_ndk);
         coutdown= (LinearLayout) findViewById(R.id.ll_main_coutdown);
+        beizier= (LinearLayout) findViewById(R.id.ll_main_beizer);
         recycleView1.setOnClickListener(this);
         recycleView2.setOnClickListener(this);
         capture.setOnClickListener(this);
@@ -57,6 +59,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         download.setOnClickListener(this);
         ndk.setOnClickListener(this);
         coutdown.setOnClickListener(this);
+        beizier.setOnClickListener(this);
     }
     @Override
     protected void onResume() {
@@ -106,6 +109,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.ll_main_coutdown:
                 intent = new Intent(this, CountDownActivity.class);
+                break;
+            case R.id.ll_main_beizer:
+                intent = new Intent(this, StickyWaterDropsActivity.class);
                 break;
         }
         if (intent != null) startActivity(intent);

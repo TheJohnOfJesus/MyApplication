@@ -25,3 +25,5 @@
 637	937	0	../obj/mips/libtest-lib.so	b453e12134f04927
 42	472	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
 472	801	0	../obj/mips/libtest-lib.so	b453e12134f04927
+2	1015	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	453a66edcf395346
+1015	2162	0	../obj/mips/libtest-lib.so	b453e12134f04927
