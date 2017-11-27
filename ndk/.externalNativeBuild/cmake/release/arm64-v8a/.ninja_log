@@ -27,3 +27,5 @@
 461	1095	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
 3	637	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
 637	1312	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d
+45	430	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	e2b9a0f0d6520258
+430	938	0	../obj/arm64-v8a/libtest-lib.so	7e881c4aee22408d

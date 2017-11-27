@@ -9,3 +9,5 @@
 449	662	0	../obj/x86/libtest-lib.so	6935a53269365055
 2	153	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	5ce5a909ea09f4d8
 153	545	0	../obj/x86/libtest-lib.so	6935a53269365055
+28	373	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	5ce5a909ea09f4d8
+373	799	0	../obj/x86/libtest-lib.so	6935a53269365055

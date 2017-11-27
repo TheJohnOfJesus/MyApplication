@@ -5,10 +5,14 @@
               android:layout_height="match_parent"
               android:background="#fff"
               android:orientation="vertical">
-
+<ImageView
+    android:id="@+id/iv_longimg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
     <com.example.john.myapplication.bezier.sticky_water_drops.view.PullView
         android:id="@+id/pullView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

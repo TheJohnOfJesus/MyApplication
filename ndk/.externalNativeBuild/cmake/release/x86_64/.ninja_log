@@ -27,3 +27,5 @@
 414	1016	0	../obj/x86_64/libtest-lib.so	479d6ff0fa3a2fc4
 3	422	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	d4ce3f3806e171bc
 422	1095	0	../obj/x86_64/libtest-lib.so	479d6ff0fa3a2fc4
+59	497	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	d4ce3f3806e171bc
+497	1230	0	../obj/x86_64/libtest-lib.so	479d6ff0fa3a2fc4

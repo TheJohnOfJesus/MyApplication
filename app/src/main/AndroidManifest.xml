@@ -115,6 +115,8 @@
         </activity>
         <activity android:name=".bezier.sticky_water_drops.StickyWaterDropsActivity">
         </activity>
+        <activity android:name=".image.longimg.LongImgActivity">
+        </activity>
     </application>
 
 </manifest>

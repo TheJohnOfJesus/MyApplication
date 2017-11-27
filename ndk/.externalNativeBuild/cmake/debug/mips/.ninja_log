@@ -9,3 +9,5 @@
 343	433	0	../obj/mips/libtest-lib.so	af8c29efa733a097
 2	190	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	3abc438f6eaab1a3
 190	376	0	../obj/mips/libtest-lib.so	af8c29efa733a097
+42	479	0	CMakeFiles/test-lib.dir/src/main/cpp/test-lib.cpp.o	3abc438f6eaab1a3
+479	760	0	../obj/mips/libtest-lib.so	af8c29efa733a097
