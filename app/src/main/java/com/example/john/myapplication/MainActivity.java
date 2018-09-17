@@ -13,6 +13,7 @@ import com.example.john.myapplication.download.DownLoadActivity;
 import com.example.john.myapplication.elevation_translationz.ElevationActivity;
 import com.example.john.myapplication.listview.ListViewActivity;
 import com.example.john.myapplication.m2048.MSurfaceActivity;
+import com.example.john.myapplication.m2048.MSurfaceActivity1;
 import com.example.john.myapplication.manager.PermissionManager;
 import com.example.john.myapplication.ndk.NDKActivtiy;
 import com.example.john.myapplication.putlayout.PutLayoutActivity;
@@ -93,7 +94,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 intent = new Intent(this, ElevationActivity.class);
                 break;
             case R.id.ll_main_surface:
-                intent = new Intent(this, MSurfaceActivity.class);
+                intent = new Intent(this, MSurfaceActivity1.class);
+//                intent = new Intent(this, MSurfaceActivity.class);
                 break;
             case R.id.ll_main_websocket:
                 intent = new Intent(this, WebSocketActivity.class);

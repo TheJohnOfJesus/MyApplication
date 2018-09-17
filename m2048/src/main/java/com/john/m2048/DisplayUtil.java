@@ -9,19 +9,23 @@ import android.util.DisplayMetrics;
  */
 
 public class DisplayUtil {
-    public static int px2dp(Context context,float pxValue){
-        return (int)(pxValue/context.getResources().getDisplayMetrics().density+0.5f);
+    public static int px2dp(Context context, float pxValue) {
+        return (int) (pxValue / context.getResources().getDisplayMetrics().density + 0.5f);
     }
-    public static int dp2px(Context context,float dpValue){
-        return (int)(dpValue*context.getResources().getDisplayMetrics().density+0.5f);
+
+    public static int dp2px(Context context, float dpValue) {
+        return (int) (dpValue * context.getResources().getDisplayMetrics().density + 0.5f);
     }
-    public static int px2sp(Context context,float pxValue){
-        return (int)(pxValue/context.getResources().getDisplayMetrics().scaledDensity+0.5f);
+
+    public static int px2sp(Context context, float pxValue) {
+        return (int) (pxValue / context.getResources().getDisplayMetrics().scaledDensity + 0.5f);
     }
-    public static int sp2px(Context context,float spValue){
-        return (int)(spValue*context.getResources().getDisplayMetrics().scaledDensity+0.5f);
+
+    public static int sp2px(Context context, float spValue) {
+        return (int) (spValue * context.getResources().getDisplayMetrics().scaledDensity + 0.5f);
     }
-    public static float getDensity(Context context){
+
+    public static float getDensity(Context context) {
         DisplayMetrics mDisplayMetrics = context.getResources().getDisplayMetrics();
         int width = mDisplayMetrics.widthPixels;
         int height = mDisplayMetrics.heightPixels;
@@ -31,11 +35,13 @@ public class DisplayUtil {
 //        Log.d(TAG,"Screen mDisplayMetrics: "+mDisplayMetrics);
         return density;
     }
-    public static float getDeviceWidthInPix(Context context){
+
+    public static float getDeviceWidthInPix(Context context) {
         DisplayMetrics mDisplayMetrics = context.getResources().getDisplayMetrics();
         return mDisplayMetrics.widthPixels;
     }
-    public static float getDeviceHeightInPix(Context context){
+
+    public static float getDeviceHeightInPix(Context context) {
         DisplayMetrics mDisplayMetrics = context.getResources().getDisplayMetrics();
         return mDisplayMetrics.heightPixels;
     }

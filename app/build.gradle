@@ -74,5 +74,3 @@ dependencies {
     compile project(':m2048')
 //    compile files('libs/ndk.jar')
 }
-
-
