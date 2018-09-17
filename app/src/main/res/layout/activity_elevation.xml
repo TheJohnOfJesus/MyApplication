@@ -18,7 +18,7 @@
         android:layout_height="200dp"
         android:background="#f00"/>
 
-    <android.support.v7.widget.AppCompatTextViewA
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/green"
         android:layout_width="200dp"
         android:layout_height="200dp"

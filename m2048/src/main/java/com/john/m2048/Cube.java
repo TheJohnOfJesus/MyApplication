@@ -1,4 +1,4 @@
-package com.example.john.m2048;
+package com.john.m2048;
 
 import android.graphics.Point;
 import android.graphics.RectF;

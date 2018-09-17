@@ -1,13 +1,13 @@
-set(CMAKE_HOST_SYSTEM "Windows-10.0.14393")
+set(CMAKE_HOST_SYSTEM "Windows-6.1.7601")
 set(CMAKE_HOST_SYSTEM_NAME "Windows")
-set(CMAKE_HOST_SYSTEM_VERSION "10.0.14393")
+set(CMAKE_HOST_SYSTEM_VERSION "6.1.7601")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("E:/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake")
+include("C:/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake")
 
-set(CMAKE_SYSTEM "Android-9")
+set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")
-set(CMAKE_SYSTEM_VERSION "9")
+set(CMAKE_SYSTEM_VERSION "1")
 set(CMAKE_SYSTEM_PROCESSOR "armv7-a")
 
 set(CMAKE_CROSSCOMPILING "TRUE")

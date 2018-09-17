@@ -1,4 +1,4 @@
-package com.example.john.m2048;
+package com.john.m2048;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,6 +9,9 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import com.john.m2048.Cube;
+import com.john.m2048.DisplayUtil;
 
 /**
  * Created by John on 2017/10/10.

@@ -1,3 +1,0 @@
-E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/test-lib.dir
-E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
-E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir

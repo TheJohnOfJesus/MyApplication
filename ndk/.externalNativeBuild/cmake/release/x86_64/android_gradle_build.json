@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "E:/Android/workspaceDemo/MyApplication/ndk/CMakeLists.txt" ],
+	"buildFiles" : [ "D:/John/workspace_git/MyApplication/ndk/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"E:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Android\\workspaceDemo\\MyApplication\\ndk\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+		"C:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\John\\workspace_git\\MyApplication\\ndk\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,27 +12,27 @@
 		{
 			"abi" : "x86_64",
 			"artifactName" : "test-lib",
-			"buildCommand" : "E:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Android\\workspaceDemo\\MyApplication\\ndk\\.externalNativeBuild\\cmake\\release\\x86_64 --target test-lib",
+			"buildCommand" : "C:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\John\\workspace_git\\MyApplication\\ndk\\.externalNativeBuild\\cmake\\release\\x86_64 --target test-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=E:/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dtest_lib_EXPORTS -isystem E:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem E:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/Android/workspaceDemo/MyApplication/ndk/src/main/cpp/test-lib.cpp",
-					"workingDirectory" : "E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/release/x86_64"
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Android/sdk/ndk-bundle/sysroot  -Dtest_lib_EXPORTS -isystem C:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Android\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem C:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/John/workspace_git/MyApplication/ndk/src/main/cpp/test-lib.cpp",
+					"workingDirectory" : "D:/John/workspace_git/MyApplication/ndk/.externalNativeBuild/cmake/release/x86_64"
 				}
 			],
-			"output" : "E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/release/obj/x86_64/libtest-lib.so",
-			"toolchain" : "2085707209"
+			"output" : "D:/John/workspace_git/MyApplication/ndk/.externalNativeBuild/cmake/release/obj/x86_64/libtest-lib.so",
+			"toolchain" : "1629680541"
 		}
 	},
 	"toolchains" : 
 	{
-		"2085707209" : 
+		"1629680541" : 
 		{
-			"cCompilerExecutable" : "E:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "E:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

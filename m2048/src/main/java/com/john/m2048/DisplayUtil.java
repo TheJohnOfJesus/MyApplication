@@ -1,4 +1,4 @@
-package com.example.john.m2048;
+package com.john.m2048;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

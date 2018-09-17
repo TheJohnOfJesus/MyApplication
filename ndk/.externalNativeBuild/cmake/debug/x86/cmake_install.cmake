@@ -1,4 +1,4 @@
-# Install script for directory: E:/Android/workspaceDemo/MyApplication/ndk
+# Install script for directory: D:/John/workspace_git/MyApplication/ndk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Android/workspaceDemo/MyApplication/ndk/.externalNativeBuild/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/John/workspace_git/MyApplication/ndk/.externalNativeBuild/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

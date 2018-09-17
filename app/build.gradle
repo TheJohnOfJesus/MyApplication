@@ -12,7 +12,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         //为了开启Java8
-        jackOptions{
+        jackOptions {
             enabled true;
         }
 
@@ -30,46 +30,49 @@ android {
         targetGenDir 'src/main/java' //路径
     }
     //开启Java1.8 能够使用lambda表达式
-    compileOptions{
+    compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
-
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.2.0'
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile project(':BaseRecyclerViewAdapterHelper')
-    compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
-    compile project(':scriptdevelope')
-    compile project(':m2048')
-    compile project(':ndk')
+    //UI
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.1'
+    //Butterknife
     compile 'com.jakewharton:butterknife:8.4.0'
     //    compile 'com.jakewharton:butterknife-compiler:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     //    apt 'com.jakewharton:butterknife-compiler:8.4.0'//如果添加apply plugin: 'com.neenbedankt.android-apt'  则使用该段引用,但是会报错,原因不明
-    compile 'com.android.support.constraint:constraint-layout:1.0.1'
-    compile files('libs/Rong_IMLib.jar')
+    //第三方SDK
     compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
-    compile files('libs/alicloud-android-sdk-httpdns-1.0.7.jar')
-    compile files('libs/com.umeng.message_3.1.1a.jar')
-    compile files('libs/utdid4all-1.1.5.3_proguard.jar')
-    /*greenDao框架*/
-    compile 'org.greenrobot:greendao:3.2.0'
-    //websocket
-    compile 'org.java-websocket:Java-WebSocket:1.3.4'
-    //    compile 'com.squareup.okhttp3:okhttp:3.4.1'
-    //    compile 'com.squareup.okhttp3:mockwebserver:3.4.1'
+    //fastjson
     compile 'com.alibaba:fastjson:1.1.56.android'
+    //greenDao框架
+    compile 'org.greenrobot:greendao:3.2.0'
+    //WebSocket
+    compile 'org.java-websocket:Java-WebSocket:1.3.4'
     //OKHttp
     compile 'com.squareup.okhttp3:okhttp:3.8.1'
     //    //RxJava和RxAndroid 用来做线程切换的
     //    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     //    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    //lib
+    compile files('libs/Rong_IMLib.jar')
+    compile files('libs/alicloud-android-sdk-httpdns-1.0.7.jar')
+    compile files('libs/com.umeng.message_3.1.1a.jar')
+    compile files('libs/utdid4all-1.1.5.3_proguard.jar')
+    //module
+    compile project(':BaseRecyclerViewAdapterHelper')
+    compile project(':scriptdevelope')
+    compile project(':m2048')
 //    compile files('libs/ndk.jar')
 }
+
+

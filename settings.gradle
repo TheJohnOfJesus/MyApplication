@@ -1,1 +1,3 @@
-include ':app', ':scriptdevelope', ':BaseRecyclerViewAdapterHelper', ':m2048', ':ndk', ':zhishitixi'
+include ':app', ':scriptdevelope', ':BaseRecyclerViewAdapterHelper', ':m2048',
+//        ':ndk',
+        ':zhishitixi'

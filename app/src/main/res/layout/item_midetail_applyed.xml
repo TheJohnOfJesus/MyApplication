@@ -8,10 +8,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="20dp"
         android:minHeight="40dp"
-        android:paddingLeft="4dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingLeft="4dp">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -36,6 +36,7 @@
                 android:textColor="#cc6a6a72"
                 android:textSize="14sp" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/tv_mid_applyed_nickname"
             android:layout_width="0dp"
@@ -47,6 +48,7 @@
             android:singleLine="true"
             android:textColor="#d92d2e30"
             android:textSize="14sp" />
+
         <TextView
             android:id="@+id/tv_mid_applyed_state"
             android:layout_width="0dp"
@@ -56,6 +58,7 @@
             android:singleLine="true"
             android:textColor="#d92d2e30"
             android:textSize="14sp" />
+
         <TextView
             android:id="@+id/tv_mid_applyed_chip"
             android:layout_width="0dp"
@@ -69,8 +72,9 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="15dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
-        android:background="@mipmap/midetail_blind_list_divider" />
+        android:background="@drawable/bg_dashed"
+        android:layerType="software" />
 </LinearLayout>
