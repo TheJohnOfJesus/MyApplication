@@ -1,1 +1,4 @@
 include ':app', ':scriptdevelope', ':BaseRecyclerViewAdapterHelper', ':m2048', ':ndk', ':zhishitixi'
+include ':db'
+include ':multimedia'
+//include ':X5WebDemo'
