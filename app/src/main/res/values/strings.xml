@@ -11,6 +11,8 @@
     <string name="main_download">下载</string>
     <string name="main_ndk">NDK</string>
     <string name="main_countdown">倒计时</string>
+    <string name="main_water">水滴</string>
+    <string name="main_tbs_video">TBSVideo</string>
     <string name="title_activity_elevation">ElevationActivity</string>
     <string name="title_activity_db">DBActivity</string>
     <string name="title_activity_msurface">MSurfaceActivity</string>

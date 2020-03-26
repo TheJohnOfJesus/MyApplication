@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hebccc.multimedia" >
+    <application
+        android:networkSecurityConfig="@xml/jz_network_security_config">
+        <activity android:name=".samples.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

@@ -6,7 +6,7 @@ package com.john.zhishitixi.datastructure.linkedlist;
 
 public class LinkedList<T> {
     LinkedList(){
-        java.util.LinkedList
+
     }
 
     public void insert(int index,T data){
