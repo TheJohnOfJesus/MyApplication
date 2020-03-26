@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 //apply from: '../maven_build.gradle'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.john'
+group='com.github.TheJohnOfJesus'
 //对maven_build.gradle进行依赖
 
 android {
